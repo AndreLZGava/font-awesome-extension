@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "font-awesome-extenssion";
+  src:url("fonts/font-awesome-extenssion.eot");
+  src:url("fonts/font-awesome-extenssion.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-awesome-extenssion.woff") format("woff"),
+    url("fonts/font-awesome-extenssion.ttf") format("truetype"),
+    url("fonts/font-awesome-extenssion.svg#font-awesome-extenssion") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-fa]:before {
+  font-family: "font-awesome-extenssion" !important;
+  content: attr(data-fa);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="fa-"]:before,
+[class*=" fa-"]:before {
+  font-family: "font-awesome-extenssion" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-check-list-o:before {
+  content: "\61";
+}
+.fa-chip:before {
+  content: "\62";
+}
+.fa-cloud:before {
+  content: "\63";
+}
+.fa-dice:before {
+  content: "\64";
+}
+.fa-disco:before {
+  content: "\65";
+}
+.fa-dress:before {
+  content: "\66";
+}
+.fa-envelope-open:before {
+  content: "\67";
+}
+.fa-envelope-open-o:before {
+  content: "\68";
+}
+.fa-feedly:before {
+  content: "\69";
+}
+.fa-fingerprint:before {
+  content: "\6a";
+}
+.fa-google-drive:before {
+  content: "\6b";
+}
+.fa-popsicle:before {
+  content: "\6c";
+}
+.fa-tools:before {
+  content: "\6d";
+}
+.fa-wallet:before {
+  content: "\6e";
+}
+.fa-python:before {
+  content: "\6f";
+}
+.fa-hamburguer:before {
+  content: "\70";
+}
+.fa-hexagon:before {
+  content: "\71";
+}
+.fa-rain:before {
+  content: "\72";
+}
+.fa-wind:before {
+  content: "\73";
+}
+.fa-ruby:before {
+  content: "\74";
+}
+.fa-higheal:before {
+  content: "\75";
+}
+.fa-ice-cream:before {
+  content: "\76";
+}
+.fa-ruby-o:before {
+  content: "\77";
+}
+.fa-shirt:before {
+  content: "\78";
+}
+.fa-id-card:before {
+  content: "\79";
+}
+.fa-java:before {
+  content: "\7a";
+}
+.fa-snapchat:before {
+  content: "\41";
+}
+.fa-layers:before {
+  content: "\42";
+}
+.fa-snow:before {
+  content: "\43";
+}
+.fa-milk-bottle:before {
+  content: "\44";
+}
+.fa-snow-flake:before {
+  content: "\45";
+}
+.fa-moon-cloud:before {
+  content: "\46";
+}
+.fa-sound-wave:before {
+  content: "\47";
+}
+.fa-my-sql:before {
+  content: "\48";
+}
+.fa-floppy:before {
+  content: "\49";
+}
+.fa-storm:before {
+  content: "\4a";
+}
+.fa-footprint:before {
+  content: "\4b";
+}
+.fa-palete-color:before {
+  content: "\4c";
+}
+.fa-sun-cloud:before {
+  content: "\4d";
+}
+.fa-glass:before {
+  content: "\4e";
+}
+.fa-php:before {
+  content: "\4f";
+}
+.fa-thermometer:before {
+  content: "\50";
+}
