@@ -1,4 +1,4 @@
-# font-awesome-extenssion
+# font-awesome-extension
 
 For use font-awesome-extenssion just add the files to your project and add the css style into the page so use classes as fa-fingerprint as if it was part of font awesome.
 
