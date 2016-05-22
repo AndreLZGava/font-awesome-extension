@@ -1,6 +1,4 @@
 # font-awesome-extension
 
-For use font-awesome-extenssion just add the files to your project and add the css style into the page so use classes as fa-fingerprint as if it was part of font awesome.
-
-You will need to use font awesome too, its required to works fine, and you'll be able to use font awesome class as rotate, fa-2x, fa-3x etc.
+Font Awesome Extension has changed the prefix from fa- to fae, it's because this was giving some problems with original Font Awesome icons project, and this is not the propose of this project. If you find any bug, or if you need an icon please create an issue, and I will try to resolve this as soon as possible. Thank you!
 
