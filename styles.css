@@ -1,20 +1,20 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "font-awesome-extenssion";
-  src:url("fonts/font-awesome-extenssion.eot");
-  src:url("fonts/font-awesome-extenssion.eot?#iefix") format("embedded-opentype"),
-    url("fonts/font-awesome-extenssion.woff") format("woff"),
-    url("fonts/font-awesome-extenssion.ttf") format("truetype"),
-    url("fonts/font-awesome-extenssion.svg#font-awesome-extenssion") format("svg");
+  font-family: "font-awesome-extension";
+  src:url("fonts/font-awesome-extension.eot");
+  src:url("fonts/font-awesome-extension.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-awesome-extension.woff") format("woff"),
+    url("fonts/font-awesome-extension.ttf") format("truetype"),
+    url("fonts/font-awesome-extension.svg#font-awesome-extension") format("svg");
   font-weight: normal;
   font-style: normal;
 
 }
 
-[data-fae]:before {
-  font-family: "font-awesome-extenssion" !important;
-  content: attr(data-fae);
+[data-icon]:before {
+  font-family: "font-awesome-extension" !important;
+  content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -27,7 +27,7 @@
 
 [class^="fae-"]:before,
 [class*=" fae-"]:before {
-  font-family: "font-awesome-extenssion" !important;
+  font-family: "font-awesome-extension" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -38,129 +38,513 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.fae-check-list-o:before {
-  content: "\61";
+.fae-smaller:before {
+  content: "\e000";
 }
-.fae-chip:before {
-  content: "\62";
+.fae-snowing:before {
+  content: "\e001";
 }
-.fae-cloud:before {
-  content: "\63";
+.fae-soda:before {
+  content: "\e002";
 }
-.fae-dice:before {
-  content: "\64";
+.fae-sofa:before {
+  content: "\e003";
 }
-.fae-disco:before {
-  content: "\65";
+.fae-soup:before {
+  content: "\e004";
 }
-.fae-dress:before {
-  content: "\66";
+.fae-spermatozoon:before {
+  content: "\e005";
 }
-.fae-envelope-open:before {
-  content: "\67";
+.fae-spin-double:before {
+  content: "\e006";
 }
-.fae-envelope-open-o:before {
-  content: "\68";
-}
-.fae-feedly:before {
-  content: "\69";
-}
-.fae-fingerprint:before {
-  content: "\6a";
-}
-.fae-google-drive:before {
-  content: "\6b";
-}
-.fae-popsicle:before {
-  content: "\6c";
-}
-.fae-tools:before {
-  content: "\6d";
-}
-.fae-wallet:before {
-  content: "\6e";
-}
-.fae-python:before {
-  content: "\6f";
-}
-.fae-hamburguer:before {
-  content: "\70";
-}
-.fae-hexagon:before {
-  content: "\71";
-}
-.fae-rain:before {
-  content: "\72";
-}
-.fae-wind:before {
-  content: "\73";
-}
-.fae-ruby:before {
-  content: "\74";
-}
-.fae-high-heel:before {
-  content: "\75";
-}
-.fae-ice-cream:before {
-  content: "\76";
-}
-.fae-ruby-o:before {
-  content: "\77";
-}
-.fae-shirt:before {
-  content: "\78";
-}
-.fae-id-card:before {
-  content: "\79";
-}
-.fae-java:before {
-  content: "\7a";
-}
-.fae-snapchat:before {
-  content: "\41";
-}
-.fae-layers:before {
-  content: "\42";
-}
-.fae-snow:before {
-  content: "\43";
-}
-.fae-milk-bottle:before {
-  content: "\44";
-}
-.fae-snow-flake:before {
-  content: "\45";
-}
-.fae-moon-cloud:before {
-  content: "\46";
-}
-.fae-sound-wave:before {
-  content: "\47";
-}
-.fae-my-sql:before {
-  content: "\48";
-}
-.fae-floppy:before {
-  content: "\49";
+.fae-stomach:before {
+  content: "\e007";
 }
 .fae-storm:before {
-  content: "\4a";
+  content: "\e008";
 }
-.fae-footprint:before {
-  content: "\4b";
-}
-.fae-palete-color:before {
-  content: "\4c";
-}
-.fae-sun-cloud:before {
-  content: "\4d";
-}
-.fae-glass:before {
-  content: "\4e";
-}
-.fae-php:before {
-  content: "\4f";
+.fae-telescope:before {
+  content: "\e009";
 }
 .fae-thermometer:before {
-  content: "\50";
+  content: "\e00a";
+}
+.fae-thermometer-high:before {
+  content: "\e00b";
+}
+.fae-thermometer-low:before {
+  content: "\e00c";
+}
+.fae-thin-close:before {
+  content: "\e00d";
+}
+.fae-toilet:before {
+  content: "\e00e";
+}
+.fae-tools:before {
+  content: "\e00f";
+}
+.fae-tooth:before {
+  content: "\e010";
+}
+.fae-uterus:before {
+  content: "\e011";
+}
+.fae-w3c:before {
+  content: "\e012";
+}
+.fae-walking:before {
+  content: "\e013";
+}
+.fae-virus:before {
+  content: "\e014";
+}
+.fae-telegram-circle:before {
+  content: "\e015";
+}
+.fae-slash:before {
+  content: "\e016";
+}
+.fae-telegram:before {
+  content: "\e017";
+}
+.fae-shirt:before {
+  content: "\e018";
+}
+.fae-tacos:before {
+  content: "\e019";
+}
+.fae-sushi:before {
+  content: "\e01a";
+}
+.fae-triangle-ruler:before {
+  content: "\e01b";
+}
+.fae-tree:before {
+  content: "\e01c";
+}
+.fae-sun-cloud:before {
+  content: "\e01d";
+}
+.fae-ruby-o:before {
+  content: "\e01e";
+}
+.fae-ruler:before {
+  content: "\e01f";
+}
+.fae-umbrella:before {
+  content: "\e020";
+}
+.fae-medicine:before {
+  content: "\e021";
+}
+.fae-microscope:before {
+  content: "\e022";
+}
+.fae-milk-bottle:before {
+  content: "\e023";
+}
+.fae-minimize:before {
+  content: "\e024";
+}
+.fae-molecule:before {
+  content: "\e025";
+}
+.fae-moon-cloud:before {
+  content: "\e026";
+}
+.fae-mushroom:before {
+  content: "\e027";
+}
+.fae-mustache:before {
+  content: "\e028";
+}
+.fae-mysql:before {
+  content: "\e029";
+}
+.fae-nintendo:before {
+  content: "\e02a";
+}
+.fae-palette-color:before {
+  content: "\e02b";
+}
+.fae-pi:before {
+  content: "\e02c";
+}
+.fae-pizza:before {
+  content: "\e02d";
+}
+.fae-planet:before {
+  content: "\e02e";
+}
+.fae-plant:before {
+  content: "\e02f";
+}
+.fae-playstation:before {
+  content: "\e030";
+}
+.fae-poison:before {
+  content: "\e031";
+}
+.fae-popcorn:before {
+  content: "\e032";
+}
+.fae-popsicle:before {
+  content: "\e033";
+}
+.fae-pulse:before {
+  content: "\e034";
+}
+.fae-python:before {
+  content: "\e035";
+}
+.fae-quora-circle:before {
+  content: "\e036";
+}
+.fae-quora-square:before {
+  content: "\e037";
+}
+.fae-radioactive:before {
+  content: "\e038";
+}
+.fae-raining:before {
+  content: "\e039";
+}
+.fae-real-heart:before {
+  content: "\e03a";
+}
+.fae-refrigerator:before {
+  content: "\e03b";
+}
+.fae-restore:before {
+  content: "\e03c";
+}
+.fae-ring:before {
+  content: "\e03d";
+}
+.fae-ruby:before {
+  content: "\e03e";
+}
+.fae-fingerprint:before {
+  content: "\e03f";
+}
+.fae-floppy:before {
+  content: "\e040";
+}
+.fae-footprint:before {
+  content: "\e041";
+}
+.fae-freecodecamp:before {
+  content: "\e042";
+}
+.fae-galaxy:before {
+  content: "\e043";
+}
+.fae-galery:before {
+  content: "\e044";
+}
+.fae-glass:before {
+  content: "\e045";
+}
+.fae-google-drive:before {
+  content: "\e046";
+}
+.fae-google-play:before {
+  content: "\e047";
+}
+.fae-gps:before {
+  content: "\e048";
+}
+.fae-grav:before {
+  content: "\e049";
+}
+.fae-guitar:before {
+  content: "\e04a";
+}
+.fae-gut:before {
+  content: "\e04b";
+}
+.fae-halter:before {
+  content: "\e04c";
+}
+.fae-hamburger:before {
+  content: "\e04d";
+}
+.fae-hat:before {
+  content: "\e04e";
+}
+.fae-hexagon:before {
+  content: "\e04f";
+}
+.fae-high-heel:before {
+  content: "\e050";
+}
+.fae-hotdog:before {
+  content: "\e051";
+}
+.fae-ice-cream:before {
+  content: "\e052";
+}
+.fae-id-card:before {
+  content: "\e053";
+}
+.fae-imdb:before {
+  content: "\e054";
+}
+.fae-infinity:before {
+  content: "\e055";
+}
+.fae-java:before {
+  content: "\e056";
+}
+.fae-layers:before {
+  content: "\e057";
+}
+.fae-lips:before {
+  content: "\e058";
+}
+.fae-lipstick:before {
+  content: "\e059";
+}
+.fae-liver:before {
+  content: "\e05a";
+}
+.fae-lung:before {
+  content: "\e05b";
+}
+.fae-makeup-brushes:before {
+  content: "\e05c";
+}
+.fae-maximize:before {
+  content: "\e05d";
+}
+.fae-wallet:before {
+  content: "\e05e";
+}
+.fae-chess-horse:before {
+  content: "\e05f";
+}
+.fae-chess-king:before {
+  content: "\e060";
+}
+.fae-chess-pawn:before {
+  content: "\e061";
+}
+.fae-chess-queen:before {
+  content: "\e062";
+}
+.fae-chess-tower:before {
+  content: "\e063";
+}
+.fae-chesse:before {
+  content: "\e064";
+}
+.fae-chilli:before {
+  content: "\e065";
+}
+.fae-chip:before {
+  content: "\e066";
+}
+.fae-cicling:before {
+  content: "\e067";
+}
+.fae-cloud:before {
+  content: "\e068";
+}
+.fae-cockroach:before {
+  content: "\e069";
+}
+.fae-coffe-beans:before {
+  content: "\e06a";
+}
+.fae-coins:before {
+  content: "\e06b";
+}
+.fae-comb:before {
+  content: "\e06c";
+}
+.fae-comet:before {
+  content: "\e06d";
+}
+.fae-crown:before {
+  content: "\e06e";
+}
+.fae-cup-coffe:before {
+  content: "\e06f";
+}
+.fae-dice:before {
+  content: "\e070";
+}
+.fae-disco:before {
+  content: "\e071";
+}
+.fae-dna:before {
+  content: "\e072";
+}
+.fae-donut:before {
+  content: "\e073";
+}
+.fae-dress:before {
+  content: "\e074";
+}
+.fae-drop:before {
+  content: "\e075";
+}
+.fae-ello:before {
+  content: "\e076";
+}
+.fae-envelope-open:before {
+  content: "\e077";
+}
+.fae-envelope-open-o:before {
+  content: "\e078";
+}
+.fae-equal:before {
+  content: "\e079";
+}
+.fae-equal-bigger:before {
+  content: "\e07a";
+}
+.fae-feedly:before {
+  content: "\e07b";
+}
+.fae-file-export:before {
+  content: "\e07c";
+}
+.fae-file-import:before {
+  content: "\e07d";
+}
+.fae-wind:before {
+  content: "\e07e";
+}
+.fae-atom:before {
+  content: "\e07f";
+}
+.fae-bacteria:before {
+  content: "\e080";
+}
+.fae-banana:before {
+  content: "\e081";
+}
+.fae-bath:before {
+  content: "\e082";
+}
+.fae-bed:before {
+  content: "\e083";
+}
+.fae-benzene:before {
+  content: "\e084";
+}
+.fae-bigger:before {
+  content: "\e085";
+}
+.fae-biohazard:before {
+  content: "\e086";
+}
+.fae-blogger-circle:before {
+  content: "\e087";
+}
+.fae-blogger-square:before {
+  content: "\e088";
+}
+.fae-bones:before {
+  content: "\e089";
+}
+.fae-book-open:before {
+  content: "\e08a";
+}
+.fae-book-open-o:before {
+  content: "\e08b";
+}
+.fae-brain:before {
+  content: "\e08c";
+}
+.fae-bread:before {
+  content: "\e08d";
+}
+.fae-butterfly:before {
+  content: "\e08e";
+}
+.fae-carot:before {
+  content: "\e08f";
+}
+.fae-cc-by:before {
+  content: "\e090";
+}
+.fae-cc-cc:before {
+  content: "\e091";
+}
+.fae-cc-nc:before {
+  content: "\e092";
+}
+.fae-cc-nc-eu:before {
+  content: "\e093";
+}
+.fae-cc-nc-jp:before {
+  content: "\e094";
+}
+.fae-cc-nd:before {
+  content: "\e095";
+}
+.fae-cc-remix:before {
+  content: "\e096";
+}
+.fae-cc-sa:before {
+  content: "\e097";
+}
+.fae-cc-share:before {
+  content: "\e098";
+}
+.fae-cc-zero:before {
+  content: "\e099";
+}
+.fae-checklist-o:before {
+  content: "\e09a";
+}
+.fae-cherry:before {
+  content: "\e09b";
+}
+.fae-chess-bishop:before {
+  content: "\e09c";
+}
+.fae-xbox:before {
+  content: "\e09d";
+}
+.fae-apple-fruit:before {
+  content: "\e09e";
+}
+.fae-chicken-thigh:before {
+  content: "\e09f";
+}
+.fae-gift-card:before {
+  content: "\e0a0";
+}
+.fae-injection:before {
+  content: "\e0a1";
+}
+.fae-isle:before {
+  content: "\e0a2";
+}
+.fae-lollipop:before {
+  content: "\e0a3";
+}
+.fae-loyalty-card:before {
+  content: "\e0a4";
+}
+.fae-meat:before {
+  content: "\e0a5";
+}
+.fae-mountains:before {
+  content: "\e0a6";
+}
+.fae-orange:before {
+  content: "\e0a7";
+}
+.fae-peach:before {
+  content: "\e0a8";
+}
+.fae-pear:before {
+  content: "\e0a9";
 }
